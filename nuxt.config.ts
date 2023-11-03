@@ -5,11 +5,16 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt"
   ],
+
   devtools: {
     enabled: true
   },
   image: {
     dir: "assets/images",
     quality: 80
+  },
+  typescript: {
+    shim: false,
+    typeCheck: true
   }
 })

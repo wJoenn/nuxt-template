@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint . --ext .vue,.js,.cjs,.mjs,.ts,.cts,.mts --max-warnings=0"
+    "lint": "eslint . --ext .vue,.js,.cjs,.mjs,.ts,.cts,.mts --max-warnings=0",
+    "tsc": "nuxt typecheck"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
@@ -22,7 +23,9 @@
     "eslint": "^8.52.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "nuxt": "^3.8.0",
+    "typescript": "^5.2.2",
     "vue": "^3.3.7",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^1.8.22"
   }
 }

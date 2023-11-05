@@ -6,6 +6,9 @@ export default defineNuxtConfig({
       pathPrefix: false
     }
   ],
+  experimental: {
+    typedPages: true
+  },
   modules: [
     "@nuxt/image",
     "@nuxtjs/tailwindcss",

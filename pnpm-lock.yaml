@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^1.0.6
     version: 1.0.6(nuxt@3.9.1)(vite@5.0.11)
   '@nuxt/image':
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^1.2.0
+    version: 1.2.0
   '@nuxtjs/eslint-config-typescript':
     specifier: ^12.1.0
     version: 12.1.0(eslint@8.56.0)(typescript@5.2.2)
@@ -1208,19 +1208,19 @@ packages:
       - xml2js
     dev: true
 
-  /@nuxt/image@1.1.0:
-    resolution: {integrity: sha512-+zZqsjVfR83UOrChGeaYuWZeLYMkFD0gNY0T6L4W1y4YaRbKNN5iynZJ71Bmg7lcOPRbf5OmSPBTSU0ieYJq4w==}
+  /@nuxt/image@1.2.0:
+    resolution: {integrity: sha512-DxR1RVHZgVHVRHyZTFhAB5149Vbe3eyTLk32h8GLj/5Nt4WN1Du6VZs89fjbTP4sfjQTSYKBKgIJDdetf61heQ==}
     engines: {node: ^14.16.0 || >=16.11.0}
     dependencies:
-      '@nuxt/kit': 3.8.2
+      '@nuxt/kit': 3.9.1
       consola: 3.2.3
-      defu: 6.1.3
-      h3: 1.9.0
+      defu: 6.1.4
+      h3: 1.10.0
       image-meta: 0.2.0
-      node-fetch-native: 1.4.1
+      node-fetch-native: 1.6.1
       ohash: 1.1.3
-      pathe: 1.1.1
-      std-env: 3.5.0
+      pathe: 1.1.2
+      std-env: 3.7.0
       ufo: 1.3.2
     optionalDependencies:
       ipx: 2.0.2
@@ -1232,6 +1232,7 @@ packages:
       - '@azure/keyvault-secrets'
       - '@azure/storage-blob'
       - '@capacitor/preferences'
+      - '@netlify/blobs'
       - '@planetscale/database'
       - '@upstash/redis'
       - '@vercel/kv'
@@ -3072,14 +3073,6 @@ packages:
     resolution: {integrity: sha512-TdHqgGf9odd8SXNuxtUBVx8Nv+qZOejE6qyqiy5NtbYYQOeFa6zmHkxlPzmaLxWWHsU6nJmB7AETdVPi+2NBUg==}
     engines: {node: '>=8'}
     dev: true
-
-  /citty@0.1.4:
-    resolution: {integrity: sha512-Q3bK1huLxzQrvj7hImJ7Z1vKYJRPQCDnd0EjXfHMidcjecGOMuLrmuQmtWmFkuKLcMThlGh1yCKG8IEc6VeNXQ==}
-    requiresBuild: true
-    dependencies:
-      consola: 3.2.3
-    dev: true
-    optional: true
 
   /citty@0.1.5:
     resolution: {integrity: sha512-AS7n5NSc0OQVMV9v6wt3ByujNIrne0/cTjiC2MYqhvao57VNfiuVksTSr2p17nVOhEr2KtqiAkGwHcgMC/qUuQ==}
@@ -5052,7 +5045,7 @@ packages:
     requiresBuild: true
     dependencies:
       '@fastify/accept-negotiator': 1.1.0
-      citty: 0.1.4
+      citty: 0.1.5
       consola: 3.2.3
       defu: 6.1.4
       destr: 2.0.2
@@ -5061,11 +5054,11 @@ packages:
       image-meta: 0.2.0
       listhen: 1.5.5
       ofetch: 1.3.3
-      pathe: 1.1.1
+      pathe: 1.1.2
       sharp: 0.32.6
-      svgo: 3.0.3
+      svgo: 3.2.0
       ufo: 1.3.2
-      unstorage: 1.9.0
+      unstorage: 1.10.1
       xss: 1.0.14
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -5075,6 +5068,7 @@ packages:
       - '@azure/keyvault-secrets'
       - '@azure/storage-blob'
       - '@capacitor/preferences'
+      - '@netlify/blobs'
       - '@planetscale/database'
       - '@upstash/redis'
       - '@vercel/kv'
@@ -5558,7 +5552,7 @@ packages:
       jiti: 1.21.0
       mlly: 1.4.2
       node-forge: 1.3.1
-      pathe: 1.1.1
+      pathe: 1.1.2
       std-env: 3.7.0
       ufo: 1.3.2
       untun: 0.1.2
@@ -6705,6 +6699,10 @@ packages:
 
   /pathe@1.1.1:
     resolution: {integrity: sha512-d+RQGp0MAYTIaDBIMmOfMwz3E+LOZnxx1HZd5R18mmCZY0QBlK0LDZfPc8FW8Ed2DlvsuE6PRjroDY+wg4+j/Q==}
+
+  /pathe@1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
+    dev: true
 
   /perfect-debounce@1.0.0:
     resolution: {integrity: sha512-xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==}
@@ -8057,21 +8055,6 @@ packages:
     resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
     dev: true
 
-  /svgo@3.0.3:
-    resolution: {integrity: sha512-X4UZvLhOglD5Xrp834HzGHf8RKUW0Ahigg/08yRO1no9t2NxffOkMiQ0WmaMIbaGlVTlSst2zWANsdhz5ybXgA==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-    requiresBuild: true
-    dependencies:
-      '@trysound/sax': 0.2.0
-      commander: 7.2.0
-      css-select: 5.1.0
-      css-tree: 2.3.1
-      csso: 5.0.5
-      picocolors: 1.0.0
-    dev: true
-    optional: true
-
   /svgo@3.2.0:
     resolution: {integrity: sha512-4PP6CMW/V7l/GmKRKzsLR8xxjdHTV4IMvhTnpuHwwBazSIlw5W/5SmPjN8Dwyt7lKbSJrRDgp4t9ph0HgChFBQ==}
     engines: {node: '>=14.0.0'}
@@ -8620,61 +8603,6 @@ packages:
       - supports-color
     dev: true
 
-  /unstorage@1.9.0:
-    resolution: {integrity: sha512-VpD8ZEYc/le8DZCrny3bnqKE4ZjioQxBRnWE+j5sGNvziPjeDlaS1NaFFHzl/kkXaO3r7UaF8MGQrs14+1B4pQ==}
-    requiresBuild: true
-    peerDependencies:
-      '@azure/app-configuration': ^1.4.1
-      '@azure/cosmos': ^3.17.3
-      '@azure/data-tables': ^13.2.2
-      '@azure/identity': ^3.2.3
-      '@azure/keyvault-secrets': ^4.7.0
-      '@azure/storage-blob': ^12.14.0
-      '@capacitor/preferences': ^5.0.0
-      '@planetscale/database': ^1.8.0
-      '@upstash/redis': ^1.22.0
-      '@vercel/kv': ^0.2.2
-      idb-keyval: ^6.2.1
-    peerDependenciesMeta:
-      '@azure/app-configuration':
-        optional: true
-      '@azure/cosmos':
-        optional: true
-      '@azure/data-tables':
-        optional: true
-      '@azure/identity':
-        optional: true
-      '@azure/keyvault-secrets':
-        optional: true
-      '@azure/storage-blob':
-        optional: true
-      '@capacitor/preferences':
-        optional: true
-      '@planetscale/database':
-        optional: true
-      '@upstash/redis':
-        optional: true
-      '@vercel/kv':
-        optional: true
-      idb-keyval:
-        optional: true
-    dependencies:
-      anymatch: 3.1.3
-      chokidar: 3.5.3
-      destr: 2.0.2
-      h3: 1.10.0
-      ioredis: 5.3.2
-      listhen: 1.5.5
-      lru-cache: 10.0.3
-      mri: 1.2.0
-      node-fetch-native: 1.6.1
-      ofetch: 1.3.3
-      ufo: 1.3.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-    optional: true
-
   /untildify@4.0.0:
     resolution: {integrity: sha512-KK8xQ1mkzZeg9inewmFVDNkg3l5LUhoq9kN6iWYB/CC9YMG8HA+c1Q8HwDe6dEX7kErrEVNVBO3fWsVq5iDgtw==}
     engines: {node: '>=8'}
@@ -8687,7 +8615,7 @@ packages:
     dependencies:
       citty: 0.1.5
       consola: 3.2.3
-      pathe: 1.1.1
+      pathe: 1.1.2
     dev: true
 
   /untyped@1.4.0:

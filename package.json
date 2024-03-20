@@ -16,7 +16,7 @@
     "pinia": "^2.1.7"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.8",
+    "@nuxt/devtools": "^1.1.0",
     "@nuxt/image": "^1.4.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/tailwindcss": "^6.11.4",

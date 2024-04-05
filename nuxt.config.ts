@@ -15,6 +15,16 @@ export default defineNuxtConfig({
     "@pinia/nuxt"
   ],
 
+  typescript: {
+    shim: false,
+    strict: true,
+    tsConfig: {
+      compilerOptions: {
+        allowImportingTsExtensions: true,
+        moduleDetection: "force"
+      }
+    }
+  },
   vite: {
     css: {
       preprocessorOptions: {
@@ -34,9 +44,5 @@ export default defineNuxtConfig({
   image: {
     dir: "assets/images",
     quality: 80
-  },
-  typescript: {
-    shim: false,
-    strict: true
   }
 })

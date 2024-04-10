@@ -23,7 +23,7 @@
     "eslint-config-joenn": "^1.0.0",
     "nuxt": "^3.11.2",
     "sass": "^1.74.1",
-    "typescript": "^5.4.4",
+    "typescript": "^5.4.5",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
     "vue-tsc": "^2.0.11"

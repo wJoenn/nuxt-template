@@ -26,18 +26,6 @@ export default defineNuxtConfig({
       }
     }
   },
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: `
-            @use "~/assets/stylesheets/config/variables" as *;
-            @use "~/assets/stylesheets/config/mixins" as *;
-          `
-        }
-      }
-    }
-  },
 
   devtools: {
     enabled: true

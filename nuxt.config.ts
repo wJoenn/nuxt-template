@@ -20,15 +20,21 @@ export default defineNuxtConfig({
   },
 
   modules: [
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+    "@pinia/nuxt",
+    "@vueuse/nuxt",
+
     ["@nuxt/eslint", {
       config: {
         standalone: false
       }
     }],
-    "@nuxt/image",
-    "@nuxtjs/tailwindcss",
-    "@pinia/nuxt",
-    "@vueuse/nuxt"
+
+    ["@nuxtjs/i18n", {
+      defaultLocale: "en",
+      locales: ["en"]
+    }]
   ],
 
   typescript: {

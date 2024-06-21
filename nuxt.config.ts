@@ -14,13 +14,17 @@ export default defineNuxtConfig({
   experimental: {
     typedPages: true
   },
+
   modules: [
     ["@nuxt/eslint", {
       config: {
         standalone: false
       }
     }],
-    "@nuxt/image",
+    ["@nuxt/image", {
+      dir: "assets/images",
+      quality: 80
+    }],
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
     "@vueuse/nuxt"
@@ -35,9 +39,5 @@ export default defineNuxtConfig({
         moduleDetection: "force"
       }
     }
-  },
-  image: {
-    dir: "assets/images",
-    quality: 80
   }
 })

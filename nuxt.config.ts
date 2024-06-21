@@ -6,6 +6,11 @@ export default defineNuxtConfig({
       pathPrefix: false
     }
   ],
+
+  devtools: {
+    enabled: true
+  },
+
   experimental: {
     typedPages: true
   },
@@ -30,10 +35,6 @@ export default defineNuxtConfig({
         moduleDetection: "force"
       }
     }
-  },
-
-  devtools: {
-    enabled: true
   },
   image: {
     dir: "assets/images",

@@ -15,16 +15,17 @@ export default defineNuxtConfig({
     typedPages: true
   },
 
+  future: {
+    compatibilityVersion: 4
+  },
+
   modules: [
     ["@nuxt/eslint", {
       config: {
         standalone: false
       }
     }],
-    ["@nuxt/image", {
-      dir: "assets/images",
-      quality: 80
-    }],
+    "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
     "@vueuse/nuxt"

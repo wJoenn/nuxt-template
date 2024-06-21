@@ -10,6 +10,11 @@ export default defineNuxtConfig({
     typedPages: true
   },
   modules: [
+    ["@nuxt/eslint", {
+      config: {
+        standalone: false
+      }
+    }],
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",

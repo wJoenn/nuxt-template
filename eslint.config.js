@@ -1,6 +1,7 @@
 import { nuxt } from "eslint-config-joenn"
+import withNuxt from "./.nuxt/eslint.config.mjs"
 
-export default [
+export default withNuxt([
   ...nuxt,
   {
     files: ["server/**/*.ts"],
@@ -8,4 +9,4 @@ export default [
       "import/extensions": "off"
     }
   }
-]
+])

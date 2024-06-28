@@ -28,7 +28,7 @@
     "eslint": "<9.0.0",
     "eslint-config-joenn": "^1.0.5",
     "typescript": "^5.5.2",
-    "vue-tsc": "^2.0.21"
+    "vue-tsc": "^2.0.22"
   },
   "packageManager": "pnpm@9.4.0"
 }

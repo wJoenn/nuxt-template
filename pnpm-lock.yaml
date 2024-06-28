@@ -46,8 +46,8 @@ importers:
         specifier: <9.0.0
         version: 8.57.0
       eslint-config-joenn:
-        specifier: ^1.0.5
-        version: 1.0.5(@typescript-eslint/parser@7.13.1(eslint@8.57.0)(typescript@5.5.2))(eslint@8.57.0)(typescript@5.5.2)
+        specifier: ^1.0.6
+        version: 1.0.6(@typescript-eslint/parser@7.13.1(eslint@8.57.0)(typescript@5.5.2))(eslint@8.57.0)(typescript@5.5.2)
       typescript:
         specifier: ^5.5.2
         version: 5.5.2
@@ -2547,8 +2547,8 @@ packages:
   eslint-config-flat-gitignore@0.1.5:
     resolution: {integrity: sha512-hEZLwuZjDBGDERA49c2q7vxc8sCGv8EdBp6PQYzGOMcHIgrfG9YOM6s/4jx24zhD+wnK9AI8mgN5RxSss5nClQ==}
 
-  eslint-config-joenn@1.0.5:
-    resolution: {integrity: sha512-mlDB3mghvBKAdlU3adIX3ZrKnjv5FGbi1oCWUFixTNK+J1k1sAwK9ImLX18ZLj8sl20iaM31HCs9WFAWIDq+2Q==}
+  eslint-config-joenn@1.0.6:
+    resolution: {integrity: sha512-MCLU3mTTs/Ry/bXOe32d1+puPq7XOmbwrx1+h6pFEPYAgf74sS4IljarPcbdAdvvA3EaelBagiDfk3OJGZ4lvA==}
     peerDependencies:
       eslint: <9.0.0
 
@@ -8546,7 +8546,7 @@ snapshots:
       find-up: 7.0.0
       parse-gitignore: 2.0.0
 
-  eslint-config-joenn@1.0.5(@typescript-eslint/parser@7.13.1(eslint@8.57.0)(typescript@5.5.2))(eslint@8.57.0)(typescript@5.5.2):
+  eslint-config-joenn@1.0.6(@typescript-eslint/parser@7.13.1(eslint@8.57.0)(typescript@5.5.2))(eslint@8.57.0)(typescript@5.5.2):
     dependencies:
       '@stylistic/eslint-plugin-js': 2.2.2(eslint@8.57.0)
       '@stylistic/eslint-plugin-ts': 2.2.2(eslint@8.57.0)(typescript@5.5.2)
